@@ -9,6 +9,10 @@ description = "Create custom workspaces"
 authors = [
   { name="SurgiShop", email="gary.starr@surgishop.com" }
 ]
+
+[tool.bench.frappe-dependencies]
+frappe = ">=15"
+
 dependencies = [
     "frappe>=15",
     "pypika @ git+https://github.com/frappe/pypika@2c50e6142b2d61d2d243e466fdd5dc03b3d918f2",

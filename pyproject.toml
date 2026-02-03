@@ -20,3 +20,7 @@ frappe-app = true
 
 [project.entry-points."frappe"]
 surgishop_workspaces = "surgishop_workspaces"
+
+[tool.bench.frappe-dependencies]
+frappe = ">=15"
+erpnext = ">=15"

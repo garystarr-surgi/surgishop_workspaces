@@ -1,1 +1,292 @@
-
+{
+  "charts": [],
+  "content": "[{\"id\":\"header1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Sales Manager</b></span>\",\"col\":12}},{\"id\":\"para1\",\"type\":\"paragraph\",\"data\":{\"text\":\"Comprehensive workspace for Sales Managers with analytics, reports, and full selling module access.\",\"col\":12}},{\"id\":\"shortcut1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Analytics\",\"col\":4}},{\"id\":\"shortcut2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":4}},{\"id\":\"shortcut3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quotation\",\"col\":4}},{\"id\":\"shortcut4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Order\",\"col\":4}},{\"id\":\"shortcut5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Invoice\",\"col\":4}},{\"id\":\"shortcut6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Delivery Note\",\"col\":4}}]",
+  "creation": "2025-02-03 00:00:00.000000",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "insights",
+  "idx": 0,
+  "is_hidden": 0,
+  "label": "Sales Manager",
+  "links": [
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Masters",
+      "link_count": 0,
+      "link_to": "",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Customer",
+      "link_count": 0,
+      "link_to": "Customer",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Lead",
+      "link_count": 0,
+      "link_to": "Lead",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Opportunity",
+      "link_count": 0,
+      "link_to": "Opportunity",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Sales Transactions",
+      "link_count": 0,
+      "link_to": "",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Quotation",
+      "link_count": 0,
+      "link_to": "Quotation",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Sales Order",
+      "link_count": 0,
+      "link_to": "Sales Order",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Sales Invoice",
+      "link_count": 0,
+      "link_to": "Sales Invoice",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Delivery Note",
+      "link_count": 0,
+      "link_to": "Delivery Note",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Reports & Analytics",
+      "link_count": 0,
+      "link_to": "",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Sales Analytics",
+      "link_count": 0,
+      "link_to": "Sales Analytics",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Sales Order Analysis",
+      "link_count": 0,
+      "link_to": "Sales Order Analysis",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Territory-wise Sales",
+      "link_count": 0,
+      "link_to": "Territory-wise Sales",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Sales Person-wise Transaction Summary",
+      "link_count": 0,
+      "link_to": "Sales Person-wise Transaction Summary",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Customer Acquisition and Loyalty",
+      "link_count": 0,
+      "link_to": "Customer Acquisition and Loyalty",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Sales Partner Commission",
+      "link_count": 0,
+      "link_to": "Sales Partner Commission",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 1,
+      "label": "Item-wise Sales History",
+      "link_count": 0,
+      "link_to": "Item-wise Sales History",
+      "link_type": "Report",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Settings",
+      "link_count": 0,
+      "link_to": "",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Card Break"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Selling Settings",
+      "link_count": 0,
+      "link_to": "Selling Settings",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Territory",
+      "link_count": 0,
+      "link_to": "Territory",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    },
+    {
+      "hidden": 0,
+      "is_query_report": 0,
+      "label": "Sales Person",
+      "link_count": 0,
+      "link_to": "Sales Person",
+      "link_type": "DocType",
+      "onboard": 0,
+      "type": "Link"
+    }
+  ],
+  "modified": "2025-02-03 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Selling",
+  "name": "Sales Manager",
+  "number_cards": [],
+  "owner": "Administrator",
+  "parent_page": "",
+  "public": 1,
+  "restrict_to_domain": "",
+  "roles": [
+    {
+      "role": "Sales Manager"
+    }
+  ],
+  "sequence_id": 10.0,
+  "shortcuts": [
+    {
+      "color": "Green",
+      "doc_view": "Report Builder",
+      "label": "Sales Analytics",
+      "link_to": "Sales Analytics",
+      "stats_filter": "",
+      "type": "Report"
+    },
+    {
+      "color": "Blue",
+      "doc_view": "List",
+      "label": "Customer",
+      "link_to": "Customer",
+      "stats_filter": "",
+      "type": "DocType"
+    },
+    {
+      "color": "Orange",
+      "doc_view": "List",
+      "label": "Quotation",
+      "link_to": "Quotation",
+      "stats_filter": "{\"docstatus\":[\"=\",0]}",
+      "type": "DocType"
+    },
+    {
+      "color": "Orange",
+      "doc_view": "List",
+      "label": "Sales Order",
+      "link_to": "Sales Order",
+      "stats_filter": "{\"docstatus\":[\"=\",1],\"status\":[\"!=\",\"Closed\"]}",
+      "type": "DocType"
+    },
+    {
+      "color": "Orange",
+      "doc_view": "List",
+      "label": "Sales Invoice",
+      "link_to": "Sales Invoice",
+      "stats_filter": "{\"docstatus\":[\"=\",1],\"outstanding_amount\":[\">=\",0.01]}",
+      "type": "DocType"
+    },
+    {
+      "color": "Purple",
+      "doc_view": "List",
+      "label": "Delivery Note",
+      "link_to": "Delivery Note",
+      "stats_filter": "{\"docstatus\":[\"=\",1]}",
+      "type": "DocType"
+    }
+  ],
+  "title": "Sales Manager"
+}

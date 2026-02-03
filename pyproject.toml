@@ -1,0 +1,20 @@
+[project]
+name = "surgishop_workspaces"
+version = "0.0.1"
+description = "Custom workspaces for SurgiShop ERPNext"
+authors = [
+    { name = "Gary", email = "gary@surgishop.com" }
+]
+dependencies = [
+    "frappe"
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench]
+frappe-app = true
+
+[project.entry-points."frappe"]
+surgishop_workspaces = "surgishop_workspaces"

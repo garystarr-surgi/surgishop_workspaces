@@ -1,1 +1,1 @@
-surgishop_workspace
+surgishop_workspaces

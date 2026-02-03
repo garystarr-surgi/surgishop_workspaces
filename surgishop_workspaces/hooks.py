@@ -4,7 +4,6 @@ app_publisher = "SurgiShop"
 app_description = "Custom workspaces for SurgiShop ERPNext"
 app_email = "gary@surgishop.com"
 app_license = "mit"
-required_apps = ["erpnext"]
 
 # Includes in <head>
 # ------------------

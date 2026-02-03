@@ -5,3 +5,11 @@ app_description = "Custom workspaces for SurgiShop ERPNext"
 app_email = "gary@surgishop.com"
 app_license = "mit"
 
+fixtures = [
+    {
+        "doctype": "Workspace",
+        "filters": [
+            ["name", "=", "Sales Manager"]
+        ]
+    }
+]
